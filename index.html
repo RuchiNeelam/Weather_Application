@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APPLICATION</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/weather_favicon.webp" type="image/x-icon">
+</head>
+<body>
+    <main id="main_container">
+        <section id="card_container">
+            <form>
+                <input type="text" id="location" placeholder="Enter your location">
+                <input type="submit" value="Get Weather" id="weather">
+            </form>
+            <article  id="img_container">
+                <img src="assets/weather_png1.webp" alt="" id="weather_image">
+                
+            </article>
+            <h3 class="weatherCondition"> NULL </h3>
+            <article id="temp_humid">
+                <aside id="temp">
+                    <h1 class="heading">TEMPERATURE</h1>
+                    <p class="para temp_value"> <sup>0</sup>C</p>
+                </aside>
+                <aside id="humid">
+                    <h1 class="heading">HUMID</h1>
+                    <p class="para humid_value">KMPH</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
